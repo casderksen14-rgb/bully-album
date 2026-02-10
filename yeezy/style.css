@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  background-color: #fff;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+  max-width: 600px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.artist, .year {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.tracklist {
+  margin-top: 60px;
+}
+
+.tracklist p {
+  font-size: 16px;
+  margin: 10px 0;
+  letter-spacing: 1px;
+}
+.enter {
+  display: inline-block;
+  margin-top: 80px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #000;
+  padding-bottom: 4px;
+}
+
+.enter:hover {
+  opacity: 0.5;
+}
+
+
+.enter:hover {
+  opacity: 0.6;
+}
+
+.tracklist p {
+  font-size: 16px;
+  margin: 12px 0;
+  letter-spacing: 1px;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+  cursor: default;
+  transform-origin: left center;
+}
+
+.tracklist p:hover {
+  transform: scale(1.08);
+  opacity: 0.6;
+}
+.tracklist p:hover {
+  transform: scale(1.08);
+  opacity: 1;
+  font-weight: 600;
+}
+.album-cover {
+  width: 100%;
+  max-width: 200px;
+  margin: 40px auto;
+  display: block;
+}
+
+.album-cover {
+  filter: grayscale(100%);
+}
+.nav {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.nav a:hover {
+  color: #000;
+}
+
+.nav a.active {
+  color: #000;
+}
+body {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+body.loaded {
+  opacity: 1;
+}
+
+body.fade-out {
+  opacity: 0;
+}
+.footer {
+  margin-top: 120px;
+  padding: 40px 0;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #777;
+}
